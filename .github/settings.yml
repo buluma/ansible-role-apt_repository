@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Manage apt repositor(y|ies).
+  homepage: https://buluma.github.io/
+  topics: apt, repository, ansible, molecule, tox, playbook, hacktoberfest
