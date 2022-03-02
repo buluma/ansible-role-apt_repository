@@ -4,7 +4,7 @@ Manage apt repositor(y|ies).
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-apt_repository/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-apt_repository/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-apt_repository/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-apt_repository)|[![quality](https://img.shields.io/ansible/quality/58076)](https://galaxy.ansible.com/buluma/apt_repository)|[![downloads](https://img.shields.io/ansible/role/d/58076)](https://galaxy.ansible.com/buluma/apt_repository)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/releases/)|
+|[![github](https://github.com/buluma/ansible-role-apt_repository/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-apt_repository/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-apt_repository/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-apt_repository)|[![quality](https://img.shields.io/ansible/quality/58076)](https://galaxy.ansible.com/buluma/apt_repository)|[![downloads](https://img.shields.io/ansible/role/d/58076)](https://galaxy.ansible.com/buluma/apt_repository)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
