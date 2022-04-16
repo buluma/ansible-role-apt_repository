@@ -102,6 +102,10 @@ The minimum version of Ansible required is 2.10, tests have been done to:
 
 If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-apt_repository/issues)
 
+## [Changelog](#changelog)
+
+[Role History](https://github.com/buluma/ansible-role-apt_repository/blob/master/CHANGELOG.md)
+
 ## [License](#license)
 
 Apache-2.0
