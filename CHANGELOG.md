@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.5](https://github.com/buluma/ansible-role-apt_repository/tree/1.0.5) (2022-04-24)
+
+[Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/1.0.4...1.0.5)
+
 ## [1.0.4](https://github.com/buluma/ansible-role-apt_repository/tree/1.0.4) (2022-04-12)
 
 [Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/1.0.3...1.0.4)
