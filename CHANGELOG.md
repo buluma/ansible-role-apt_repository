@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-apt_repository/tree/HEAD)
+## [1.0.7](https://github.com/buluma/ansible-role-apt_repository/tree/1.0.7) (2023-04-15)
 
-[Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/1.0.6...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/1.0.6...1.0.7)
 
 **Merged pull requests:**
 
