@@ -1,10 +1,10 @@
-# [apt_repository](#apt_repository)
+# [Ansible role apt_repository](#apt_repository)
 
 Manage apt repositor(y|ies).
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-apt_repository/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-apt_repository/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-apt_repository/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-apt_repository)|[![quality](https://img.shields.io/ansible/quality/58076)](https://galaxy.ansible.com/buluma/apt_repository)|[![downloads](https://img.shields.io/ansible/role/d/58076)](https://galaxy.ansible.com/buluma/apt_repository)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-apt_repository/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-apt_repository/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-apt_repository/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-apt_repository)|[![downloads](https://img.shields.io/ansible/role/d/4642)](https://galaxy.ansible.com/buluma/apt_repository)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -96,7 +96,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |---------|----|
 |[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
 
-The minimum version of Ansible required is 2.10, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done to:
 
 - The previous version.
 - The current version.
