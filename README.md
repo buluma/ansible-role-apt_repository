@@ -1,10 +1,10 @@
-# [Ansible role apt_repository](#apt_repository)
+# Ansible role [apt_repository](https://galaxy.ansible.com/ui/standalone/roles/buluma/apt_repository/documentation)
 
 Manage apt repositor(y|ies).
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-apt_repository/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-apt_repository/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-apt_repository/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-apt_repository/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-apt_repository.svg)](https://github.com/buluma/ansible-role-apt_repository/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/apt_repository)](https://galaxy.ansible.com/ui/standalone/roles/buluma/apt_repository/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -110,13 +110,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-apt_repository/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-apt_repository/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
