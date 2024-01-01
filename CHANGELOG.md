@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-apt_repository/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/1.0.11...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#21](https://github.com/buluma/ansible-role-apt_repository/issues/21)
+
+## [1.0.11](https://github.com/buluma/ansible-role-apt_repository/tree/1.0.11) (2023-12-27)
+
+[Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/1.0.10...1.0.11)
+
 ## [1.0.10](https://github.com/buluma/ansible-role-apt_repository/tree/1.0.10) (2023-12-24)
 
 [Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/1.0.9...1.0.10)
