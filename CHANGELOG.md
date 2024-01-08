@@ -1,12 +1,16 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-apt_repository/tree/HEAD)
+## [1.1.0](https://github.com/buluma/ansible-role-apt_repository/tree/1.1.0) (2024-01-02)
 
-[Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/1.0.11...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/1.0.11...1.1.0)
 
 **Closed issues:**
 
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#21](https://github.com/buluma/ansible-role-apt_repository/issues/21)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#22](https://github.com/buluma/ansible-role-apt_repository/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.11](https://github.com/buluma/ansible-role-apt_repository/tree/1.0.11) (2023-12-27)
 
