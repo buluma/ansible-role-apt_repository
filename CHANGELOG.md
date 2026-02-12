@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-apt_repository/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/24.3.31...HEAD)
+
+**Closed issues:**
+
+- Update action [\#20](https://github.com/buluma/ansible-role-apt_repository/issues/20)
+- rebuild action [\#19](https://github.com/buluma/ansible-role-apt_repository/issues/19)
+
 ## [24.3.31](https://github.com/buluma/ansible-role-apt_repository/tree/24.3.31) (2024-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/24.2.26...24.3.31)
