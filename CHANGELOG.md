@@ -9,6 +9,10 @@
 - Update action [\#20](https://github.com/buluma/ansible-role-apt_repository/issues/20)
 - rebuild action [\#19](https://github.com/buluma/ansible-role-apt_repository/issues/19)
 
+**Merged pull requests:**
+
+- Bump actions/checkout from 4 to 6 [\#33](https://github.com/buluma/ansible-role-apt_repository/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-apt_repository/tree/24.3.31) (2024-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/24.2.26...24.3.31)
