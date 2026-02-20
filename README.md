@@ -93,7 +93,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
+|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|jammy, noble, plucky|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
 

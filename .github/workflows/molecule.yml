@@ -41,11 +41,11 @@ jobs:
       matrix:
         distro:
           - image: "docker-molecule-images"
-            tag: "plucky"
+            tag: "jammy"
           - image: "docker-molecule-images"
             tag: "ubuntu_latest"
           - image: "docker-molecule-images"
-            tag: "jammy"
+            tag: "plucky"
     steps:
       - name: checkout
         uses: actions/checkout@v6

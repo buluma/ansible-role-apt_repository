@@ -9,7 +9,9 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
-        - all
+        - jammy
+        - noble
+        - plucky
   galaxy_tags:
     - apt
     - repository
