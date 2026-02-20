@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test apt_repositories
   ansible.builtin.assert:
     that:
