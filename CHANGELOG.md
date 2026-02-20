@@ -1,7 +1,9 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-apt_repository/tree/HEAD)
+## [24.3.31](https://github.com/buluma/ansible-role-apt_repository/tree/24.3.31) (2024-03-29)
 
+<<<<<<< dependabot/github_actions/buluma/dependabot-auto-merge-action-2.1.3
+=======
 [Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/24.3.31...HEAD)
 
 **Closed issues:**
@@ -15,6 +17,7 @@
 
 ## [24.3.31](https://github.com/buluma/ansible-role-apt_repository/tree/24.3.31) (2024-03-29)
 
+>>>>>>> master
 [Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/24.2.26...24.3.31)
 
 **Merged pull requests:**
