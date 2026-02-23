@@ -1,21 +1,20 @@
----
-- name: Prepare
-  hosts: all
-  become: true
-  gather_facts: false
+  - name: Prepare
+    hosts: all
+    become: true
+    gather_facts: false
 
-  roles:
-    - role: buluma.bootstrap
+    roles:
+      - role: buluma.bootstrap
 
-  tasks:
-    - name: Install apt-transport-https ca-certificates
-      ansible.builtin.package:
-        name: "{{ item }}"
-      loop:
-        - apt-transport-https
-        - ca-certificates
+    tasks:
+      - name: Install apt-transport-https ca-certificates
+        ansible.builtin.package:
+          name: "{{ item }}"
+        loop:
+          - apt-transport-https
+          - ca-certificates
 
-    - name: Install yarn public key
-      ansible.builtin.apt_key:
-        url: "https://dl.yarnpkg.com/debian/pubkey.gpg"
-        validate_certs: false
+      - name: Install yarn public key
+        ansible.builtin.apt_key:
+          url: "https://dl.yarnpkg.com/debian/pubkey.gpg"
+          validate_certs: false

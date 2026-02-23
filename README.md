@@ -11,42 +11,40 @@ Manage apt repositor(y|ies).
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-apt_repository/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
----
-- name: Converge
-  hosts: all
-  become: true
-  gather_facts: true
+  - name: Converge
+    hosts: all
+    become: true
+    gather_facts: true
 
-  roles:
-    - role: buluma.apt_repository
-      apt_repositories:
-        - repo: "deb https://dl.yarnpkg.com/debian/ stable main"
+    roles:
+      - role: buluma.apt_repository
+        apt_repositories:
+          - repo: "deb https://dl.yarnpkg.com/debian/ stable main"
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-apt_repository/blob/master/molecule/default/prepare.yml):
 
 ```yaml
----
-- name: Prepare
-  hosts: all
-  become: true
-  gather_facts: false
+  - name: Prepare
+    hosts: all
+    become: true
+    gather_facts: false
 
-  roles:
-    - role: buluma.bootstrap
+    roles:
+      - role: buluma.bootstrap
 
-  tasks:
-    - name: Install apt-transport-https ca-certificates
-      ansible.builtin.package:
-        name: "{{ item }}"
-      loop:
-        - apt-transport-https
-        - ca-certificates
+    tasks:
+      - name: Install apt-transport-https ca-certificates
+        ansible.builtin.package:
+          name: "{{ item }}"
+        loop:
+          - apt-transport-https
+          - ca-certificates
 
-    - name: Install yarn public key
-      ansible.builtin.apt_key:
-        url: "https://dl.yarnpkg.com/debian/pubkey.gpg"
-        validate_certs: false
+      - name: Install yarn public key
+        ansible.builtin.apt_key:
+          url: "https://dl.yarnpkg.com/debian/pubkey.gpg"
+          validate_certs: false
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -56,7 +54,6 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-apt_repository/blob/master/defaults/main.yml):
 
 ```yaml
----
 # defaults file for apt_repositories
 
 # You can add or remove repositories:
