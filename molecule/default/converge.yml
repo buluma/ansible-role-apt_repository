@@ -5,6 +5,6 @@
   gather_facts: true
 
   roles:
-  - role: buluma.apt_repository
-    apt_repositories:
-    - repo: "deb https://dl.yarnpkg.com/debian/ stable main"
+    - role: buluma.apt_repository
+      apt_repositories:
+        - repo: "deb https://dl.yarnpkg.com/debian/ stable main"
