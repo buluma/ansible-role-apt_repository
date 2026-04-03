@@ -1,9 +1,7 @@
 # Changelog
 
-## [24.3.31](https://github.com/buluma/ansible-role-apt_repository/tree/24.3.31) (2024-03-29)
+## [Unreleased](https://github.com/buluma/ansible-role-apt_repository/tree/HEAD)
 
-<<<<<<< dependabot/github_actions/buluma/dependabot-auto-merge-action-2.1.3
-=======
 [Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/24.3.31...HEAD)
 
 **Closed issues:**
@@ -13,11 +11,12 @@
 
 **Merged pull requests:**
 
+- Bump actions/setup-python from 5 to 6 [\#34](https://github.com/buluma/ansible-role-apt_repository/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 4 to 6 [\#33](https://github.com/buluma/ansible-role-apt_repository/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#32](https://github.com/buluma/ansible-role-apt_repository/pull/32) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-apt_repository/tree/24.3.31) (2024-03-29)
 
->>>>>>> master
 [Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/24.2.26...24.3.31)
 
 **Merged pull requests:**
