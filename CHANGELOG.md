@@ -1,5 +1,9 @@
 # Changelog
 
+## [26.6.1](https://github.com/buluma/ansible-role-apt_repository/tree/26.6.1) (2026-06-14)
+
+[Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/26.6.0...26.6.1)
+
 ## [26.6.0](https://github.com/buluma/ansible-role-apt_repository/tree/26.6.0) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-apt_repository/compare/24.3.31...26.6.0)
@@ -40,6 +44,7 @@
 
 - Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#25](https://github.com/buluma/ansible-role-apt_repository/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#24](https://github.com/buluma/ansible-role-apt_repository/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
+- ReadME update [\#2](https://github.com/buluma/ansible-role-apt_repository/pull/2) ([buluma](https://github.com/buluma))
 
 ## [1.1.0](https://github.com/buluma/ansible-role-apt_repository/tree/1.1.0) (2024-01-02)
 
@@ -112,7 +117,6 @@
 
 **Merged pull requests:**
 
-- ReadME update [\#2](https://github.com/buluma/ansible-role-apt_repository/pull/2) ([buluma](https://github.com/buluma))
 - Gitlab trigger [\#1](https://github.com/buluma/ansible-role-apt_repository/pull/1) ([buluma](https://github.com/buluma))
 
 ## [1.0.0](https://github.com/buluma/ansible-role-apt_repository/tree/1.0.0) (2022-02-17)
