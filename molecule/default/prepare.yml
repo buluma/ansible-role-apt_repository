@@ -37,14 +37,23 @@
     - role: buluma.bootstrap
 
   tasks:
+    - name: Gather facts
+      ansible.builtin.setup:
+
     - name: Install apt-transport-https ca-certificates
       ansible.builtin.package:
         name: "{{ item }}"
       loop:
         - apt-transport-https
         - ca-certificates
+      when:
+        - ansible_facts['os_family'] == "Debian"
 
     - name: Install yarn public key
-      ansible.builtin.apt_key:
+      ansible.builtin.get_url:
         url: "https://dl.yarnpkg.com/debian/pubkey.gpg"
+        dest: /etc/apt/trusted.gpg.d/yarn.asc
         validate_certs: false
+        mode: "0644"
+      when:
+        - ansible_facts['os_family'] == "Debian"

@@ -30,7 +30,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 - name: Prepare
   hosts: all
   become: true
-  gather_facts: false
+  gather_facts: true
 
   pre_tasks:
     - name: Install sudo if missing
@@ -71,11 +71,17 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
       loop:
         - apt-transport-https
         - ca-certificates
+      when:
+        - ansible_facts['os_family'] == "Debian"
 
     - name: Install yarn public key
-      ansible.builtin.apt_key:
+      ansible.builtin.get_url:
         url: "https://dl.yarnpkg.com/debian/pubkey.gpg"
+        dest: /etc/apt/trusted.gpg.d/yarn.asc
         validate_certs: false
+        mode: "0644"
+      when:
+        - ansible_facts['os_family'] == "Debian"
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -123,9 +129,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[EL](https://hub.docker.com/r/buluma/docker-molecule-images)|10, 9|
 |[Debian](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
-|[Fedora](https://hub.docker.com/r/buluma/docker-molecule-images)|44, 43|
 |[Ubuntu](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
