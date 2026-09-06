@@ -30,7 +30,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 - name: Prepare
   hosts: all
   become: true
-  gather_facts: true
+  gather_facts: false
 
   pre_tasks:
     - name: Install sudo if missing
@@ -65,6 +65,9 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
     - role: buluma.bootstrap
 
   tasks:
+    - name: Gather facts
+      ansible.builtin.setup:
+
     - name: Install apt-transport-https ca-certificates
       ansible.builtin.package:
         name: "{{ item }}"
