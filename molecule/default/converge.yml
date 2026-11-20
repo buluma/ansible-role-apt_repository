@@ -7,4 +7,8 @@
   roles:
     - role: buluma.apt_repository
       apt_repositories:
-        - repo: "deb https://dl.yarnpkg.com/debian/ stable main"
+        - name: yarn
+          uris: https://dl.yarnpkg.com/debian/
+          suites: stable
+          components: main
+          signed_by: https://dl.yarnpkg.com/debian/pubkey.gpg
